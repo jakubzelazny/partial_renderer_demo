@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Quick demo app to show a mistake in Rails Guides. It's supposed to prove the points.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Steps:
+1. Create a new article.
+2. Show the new article.
+3. Change the partial "articles/\_article.html.erb" to see the error.
+4. Fix the partial.
+5. Go to /notes. See that the partial gets rendered from "articles/article", not from "notes/article"
